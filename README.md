@@ -1,8 +1,8 @@
-#Crypto News Summarizer API
-##Description
+# Crypto News Summarizer API
+## Description
 Crypto News Summarizer API is a web service built with FastAPI for collecting, processing, and summarizing cryptocurrency news. The service automatically retrieves news through NewsAPI, analyzes content, determines categories, and creates brief digests.
 
-##Features
+## Features
 News Collection - automatic collection of crypto news through NewsAPI
 
 Intelligent Summarization - creating concise and informative news summaries
@@ -17,7 +17,7 @@ Background Processing - asynchronous article processing without response delay
 
 Swagger Documentation - interactive API documentation
 
-##Technology Stack
+## Technology Stack
 FastAPI - modern web framework
 
 SQLAlchemy - ORM for database operations
@@ -32,7 +32,7 @@ Pydantic - data validation
 
 Uvicorn - ASGI server
 
-##Installation and Setup
+## Installation and Setup
 1. Clone Repository
 git clone [https://github.com/yourusername/crypto-news-summarizer.git](https://github.com/C0balt098/crypto-news-summarizer.git)
 cd crypto-news-summarizer
@@ -58,11 +58,11 @@ The application will be available at: http://localhost:8000
 API Documentation
 After starting the application, documentation is available at:
 
-##Swagger UI: http://localhost:8000/docs
+## Swagger UI: http://localhost:8000/docs
 
-##ReDoc: http://localhost:8000/redoc
+## ReDoc: http://localhost:8000/redoc
 
-###Security
+### Security
 All API keys are stored in .env file and not exposed in code
 
 CORS settings are configured for access control
